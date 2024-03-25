@@ -60,12 +60,6 @@ function displayCocktail(data) {
             }
             return ingredients;
         }, {});
-    for (let key in getIngredients) {
-        let value = getIngredients[key];
-        // listItem = document.createElement("li"); causing some errors 
-        // listItem.innerHTML = value;
-        // cocktailIngredients.appendChild(listItem);
-    }
 }
 // Event listener for the button
 document.getElementById("newRecipeBtn").addEventListener("click", fetchNewRecipe);

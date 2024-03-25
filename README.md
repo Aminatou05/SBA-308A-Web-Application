@@ -5,5 +5,6 @@ built a page that fetches a random cocktail recipe like the following
 created an async function using the Fetch API to fetch a new recipe.
 
 A Function to display the cocktail Data, cocktail name, cocktail image,cocktail ingredients, and newRecipeBtn in the HTML so that you can click on it to get a new Recipe.
-
 Also, I added an Event listener for the button to display the initial recipe when the page loads.
+Created an engaging user experience through the use of HTML and CSS.
+I added different fetch post methods just to practice in my module files. 
