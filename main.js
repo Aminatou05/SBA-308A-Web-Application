@@ -62,9 +62,9 @@ function displayCocktail(data) {
         }, {});
     for (let key in getIngredients) {
         let value = getIngredients[key];
-        listItem = document.createElement("li");
-        listItem.innerHTML = value;
-        cocktailIngredients.appendChild(listItem);
+        // listItem = document.createElement("li"); causing some errors 
+        // listItem.innerHTML = value;
+        // cocktailIngredients.appendChild(listItem);
     }
 }
 // Event listener for the button
